@@ -2,6 +2,8 @@
      width: 1440px;
      height: 700px;
      background-color: #014e56;
+     overflow: hidden;
+     position: relative;
 }
 .containerHeader {
     display: flex;
@@ -17,28 +19,28 @@ div .headerTalent{
     
 }
 div .headerHome{
-position: absolute;
-font-family: 'Livvic';
-font-style: normal;
-font-weight: 600;
-font-size: 18px;
-line-height: 28px;
-margin-left: 405px;
-margin-top: 83px;
-cursor: pointer;
+    position: absolute;
+    font-family: 'Livvic';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    margin-left: 405px;
+    margin-top: 83px;
+    cursor: pointer;
 }
 div .headerHome:hover{
     color: #F67E7E;
 }
 div .headerAbout{
     position: absolute;
-font-family: 'Livvic';
-font-style: normal;
-font-size: 18px;
-line-height: 28px;
-margin-left: 494px;
-margin-top: 83px;
-cursor: pointer;
+    font-family: 'Livvic';
+    font-style: normal;
+    font-size: 18px;
+    line-height: 28px;
+    margin-left: 494px;
+    margin-top: 83px;
+    cursor: pointer;
 }
 div .headerAbout:hover{
     color: #F67E7E;
@@ -48,12 +50,14 @@ div .headerAbout:hover{
     height: 48px;
     width: 153px;
     border-radius: 24px;
-    border: 3px solid;
+    border: 2px solid;
     background-color: transparent;
     color: #ffffff;
     margin-top: 73px;
     margin-left: 799.47px;
-    margin-right: 165px;
+    margin-right: 799.47px;
+    font-size: 18px;
+    line-height: 28px;
  }
  div .headerButton .headerButtonText{
     font-family: 'Livvic';
@@ -68,13 +72,13 @@ div .headerAbout:hover{
  }
  .headerRectangle{
     position: absolute;
-   width: 50px;
-   height: 4px;
+    width: 50px;
+    height: 4px;
     background: #79C8C7;
-    margin-left: 830px;
-    margin-top: 250px;
-    margin-right: 560px;
-    margin-bottom: 446px;
+    left: 830px;
+    top: 250px;
+    right: 560px;
+    bottom: 446px;
  }
  .headerBestTalent{
     position: absolute;
@@ -93,15 +97,30 @@ div .headerAbout:hover{
     font-family: "Livvic";
     position: absolute;
     font-weight: 700;
+    left: 180px;
 }
 div .headerAboutText{
     font-family: 'Livvic';
     position: absolute;
     height: 112px;
     width: 445px;
-    margin-top: 333px;
-    margin-left: 830px;
-    margin-right: 165px;
+    top: 333px;
+    left: 830px;
+    right: 165px;
     color: #ffffff;
     line-height: 28px;
+}
+div .headerHome1Icon{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: -100px;
+    top: 250px;
+}
+div .headerHome2Icon{
+    position: absolute;
+    width: 358px;
+    height: 200px;
+    left: 917px;
+    top: 600px;   
 }
