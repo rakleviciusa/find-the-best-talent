@@ -4,6 +4,8 @@
      background-color: #014e56;
      overflow: hidden;
      position: relative;
+     display: flex;
+     flex-wrap: wrap;
 }
 .containerHeader {
     display: flex;
@@ -11,6 +13,7 @@
     flex-direction: row;
     color: #ffffff;
     position: absolute;
+    flex-wrap: wrap;
 }
 div .headerTalent{
     width: 157.5px;
@@ -109,6 +112,7 @@ div .headerAboutText{
     right: 165px;
     color: #ffffff;
     line-height: 28px;
+    
 }
 div .headerHome1Icon{
     position: absolute;
@@ -124,10 +128,60 @@ div .headerHome2Icon{
     left: 917px;
     top: 600px;   
 }
-div .aboutHeaderBackground{
+.aboutHeaderBackground{
     width: 1440px;
     height: 517px;
     background-color: #014e56;
     overflow: hidden;
     position: relative;
+}
+div .aboutHeaderAbout{
+    font-family: 'Livvic';
+    font-style: normal;
+    position: absolute;
+    color: #ffffff;
+    width: 350px;
+    height: 100px;
+    left: 165px;
+    bottom: 176px;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 100px;
+}
+div .aboutHeaderRectangle{
+    position: absolute;
+    width: 50px;
+    height: 4px;
+    background-color: #F67E7E;
+    left: 545px;
+    top: 241px;
+    
+}
+div .aboutHeaderText{
+    position: absolute;
+    font-family: 'Livvic';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    width: 730px;
+    height: 112px;
+    top: 44px;
+    color: #ffffff;
+    right: 165px;
+    top: 285px;
+}
+div .aboutBackgroundIcon{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    right: -100px;
+    top: 317px;
+}.contactHeaderBackground{
+    width: 1440px;
+    height: 240px;
+    background-color: #014e56;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;   
 }
