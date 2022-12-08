@@ -1,94 +1,181 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    margin: 0;
-    font-family: 'Livvic', sans-serif;
+  margin: 0;
+  font-family: "Livvic", sans-serif;
 }
 
 main {
-    background-color: #004047;
-    height: 745px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    position: relative;
+  background-color: #004047;
+  height: 745px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
 }
 
-main .container {
-    max-width: 1110px;
-    position: relative;
+.container {
+  max-width: 1110px;
+  position: relative;
 }
 
 main h1 {
-    margin: 0;
-    font-weight: 700;
-    font-size: 3rem;
-    margin-bottom: 1em;
+  margin: 0;
+  font-weight: 700;
+  font-size: 3rem;
+  margin-bottom: 1em;
 }
 
-main h1, main h4, main p {
-    color: #FFFFFF;;
+main h1,
+main h4,
+main p,
+.director-description p {
+  color: #ffffff;
 }
 
 .main-3-blocks {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
 }
 /* 
 .main-heading {
     max-width: 932px;
 } */
 
+.quotes-pattern {
+  background-image: url(images/icon-quotes.svg);
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
 .avatar {
-    max-width: 62px;
-    border-radius: 50%;
-    border: 2px solid #C4FFFE;
+  max-width: 62px;
+  border-radius: 50%;
+  border: 2px solid #c4fffe;
 }
 
-.main-description-block p{
-    font-weight: 600;
-    font-size: 0.9375rem;
-    line-height: 25px;
-    background-image: url(images/icon-quotes.svg);
-    background-repeat: no-repeat;
-    background-position-x: center;
-    background-position-y: top + 50px;
-    padding-top: 3em;
-    /* background-attachment: fixed; */
+.main-description-block p {
+  font-weight: 600;
+  font-size: 0.9375rem;
+  line-height: 25px;
+  padding-top: 3em;
+  /* background-attachment: fixed; */
 }
 
-.name-position h4 {
-    color: #79C8C7;
-    font-weight: 700;
-    margin-bottom: 2px;
+.name-position h4,
+.director-description h4 {
+  color: #79c8c7;
+  font-weight: 700;
+  margin-bottom: 2px;
 }
 
 .name-position p {
-    font-style: italic;
-    font-weight: 500;
-    font-size: 0.8125rem;
-    margin-top: 0;
+    padding: 0;
+}
+
+.name-position {
+    margin-top: 1.2em;
+}
+
+.name-position p,
+.director-description p {
+  font-style: italic;
+  font-weight: 500;
+  font-size: 0.8125rem;
+  margin-top: 0;
 }
 
 .color-ligthblue {
-    color: #79C8C7;
+  color: #79c8c7;
 }
 
 .pattern-right-bottom {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    max-width: 200px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  max-width: 200px;
 }
 
 .pattern-top-left {
-    position: absolute;
-    top: 0;
-    left: 0;
-    max-width: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  max-width: 100px;
 }
 
+.meet-the-directors {
+  background-color: #004047;
+  height: 1002px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+
+.meet-the-directors h1,
+main h4,
+main p,
+.name-position p {
+  color: #ffffff;
+  margin: 0;
+}
+
+.meet-the-directors h1 {
+  font-weight: 700;
+  font-size: 3rem;
+  margin-bottom: 1.33334em;
+}
+
+.directors-three-blocks {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.director-description {
+  background-color: #012f34;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 30vmax;
+  max-width: 350px;
+  height: 30vmax;
+  max-height: 253px;
+  position: relative;
+}
+
+.directors-six-blocks {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  gap: 76px;
+}
+
+.meet-the-directors-btn {
+  position: absolute;
+  background-color: #f67e7e;
+  padding: 0.25em 0.5751em;
+  border-radius: 50%;
+  border: none;
+  color: #012f34;
+  font-family: "Livvic", sans-serif;
+  font-size: 2rem;
+  cursor: pointer;
+  bottom: -28px;
+  font-weight: 600;
+}
+
+.meet-the-directors-btn span {
+  position: relative;
+  top: -3.5px;
+}
+
+.pattern-half {
+  max-width: 200px;
+  left: -100px;
+}
