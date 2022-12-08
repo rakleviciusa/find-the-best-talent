@@ -277,3 +277,26 @@ header h1 {
   left: 730px;
   top: 120px;
 }
+
+/* ABOUT HEADER */
+
+.header-about {
+  height: 513px;
+}
+
+.header-about h1 {
+  font-size: 3.2rem;
+  margin-right: 2.5em;
+}
+
+.about-line {
+  background-color: #F67E7E;
+}
+
+.m-2em {
+  margin-top: 40px;
+}
+
+.half-pattern {
+  right: -100px;
+}
