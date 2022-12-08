@@ -187,3 +187,192 @@ main p,
 .director-description .avatar {
   max-width: 96px;
 }
+.headerBackground{
+     width: 1440px;
+     height: 700px;
+     background-color: #014e56;
+     overflow: hidden;
+     position: relative;
+     display: flex;
+}
+.containerHeader div {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    color: #ffffff;
+    position: absolute;
+    flex-wrap: wrap;
+    max-width: 1110px;
+    margin-left: 165px;
+    margin-right: 165px;
+}
+div .headerTalent{
+    width: 157.5px;
+    margin-top: 77px;
+    margin-left: 165px;
+    
+}
+div .headerHome{
+    position: absolute;
+    font-family: 'Livvic';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    margin-left: 405px;
+    margin-top: 83px;
+    cursor: pointer;
+}
+div .headerHome:hover{
+    color: #F67E7E;
+}
+div .headerAbout{
+    position: absolute;
+    font-family: 'Livvic';
+    font-style: normal;
+    font-size: 18px;
+    line-height: 28px;
+    margin-left: 494px;
+    margin-top: 83px;
+    cursor: pointer;
+}
+div .headerAbout:hover{
+    color: #F67E7E;
+}
+ div .headerButton{
+    position: absolute;
+    height: 48px;
+    width: 153px;
+    border-radius: 24px;
+    border: 2px solid;
+    background-color: transparent;
+    color: #ffffff;
+    top: 73px;
+    left: 950.47px;
+
+    font-size: 18px;
+    line-height: 28px;
+ }
+ div .headerButton .headerButtonText{
+    font-family: 'Livvic';
+    font-style: normal;
+    letter-spacing: 1px;
+ }
+ div .headerButton:hover {
+    display: block;
+    background-color: #ffffff;
+    color: #000000;
+    border-color: #ffffff;
+ }
+ .headerRectangle{
+    position: absolute;
+    width: 50px;
+    height: 4px;
+    background: #79C8C7;
+    left: 830px;
+    top: 250px;
+    right: 560px;
+    bottom: 446px;
+ }
+ .headerBestTalent{
+    position: absolute;
+    font-family: 'Livvic';
+    width: 635px;
+    height: 200px;
+    top: 250px;
+    left: 165px;
+    color: #ffffff;
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 100px;
+}
+.headerTalentColor{
+    color: #F67E7E;
+    font-family: "Livvic";
+    position: absolute;
+    font-weight: 700;
+    left: 180px;
+}
+div .headerAboutText{
+    font-family: 'Livvic';
+    position: absolute;
+    height: 112px;
+    width: 445px;
+    top: 333px;
+    left: 830px;
+    right: 165px;
+    color: #ffffff;
+    line-height: 28px;
+    
+}
+div .headerHome1Icon{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: -100px;
+    top: 250px;
+}
+div .headerHome2Icon{
+    position: absolute;
+    width: 358px;
+    height: 200px;
+    left: 917px;
+    top: 600px;   
+}
+.aboutHeaderBackground{
+    width: 1440px;
+    height: 517px;
+    background-color: #014e56;
+    overflow: hidden;
+    position: relative;
+}
+div .aboutHeaderAbout{
+    font-family: 'Livvic';
+    font-style: normal;
+    position: absolute;
+    color: #ffffff;
+    width: 350px;
+    height: 100px;
+    left: 165px;
+    bottom: 176px;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 100px;
+}
+div .aboutHeaderRectangle{
+    position: absolute;
+    width: 50px;
+    height: 4px;
+    background-color: #F67E7E;
+    left: 545px;
+    top: 241px;
+    
+}
+div .aboutHeaderText{
+    position: absolute;
+    font-family: 'Livvic';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    width: 730px;
+    height: 112px;
+    top: 44px;
+    color: #ffffff;
+    right: 165px;
+    top: 285px;
+}
+div .aboutBackgroundIcon{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    right: -100px;
+    top: 317px;
+}.contactHeaderBackground{
+    width: 1440px;
+    height: 240px;
+    background-color: #014e56;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;   
+}
