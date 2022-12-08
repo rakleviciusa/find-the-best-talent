@@ -179,3 +179,7 @@ main p,
   max-width: 200px;
   left: -100px;
 }
+
+.director-description .avatar {
+  max-width: 96px;
+}
