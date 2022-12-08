@@ -190,212 +190,90 @@ main p,
 
 /* HEADER ___________________________ */
 
-.headerBackground {
-  /* max-width: 1440px; */
+header {
+  background-color: #014E56;
   height: 700px;
-  background-color: #014e56;
-  overflow: hidden;
   position: relative;
-  /* display: flex; */
-}
-.containerHeader {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-  color: #ffffff;
-  position: relative;
-  flex-wrap: wrap;
-  max-width: 100%;
-  /* margin-left: 165px; */
-  /* margin-right: 165px; */
 }
 
 .hero-container {
+  max-width: 1080px;
   margin: 0 auto;
-  left: 0;
-  right: 0;
-  /* position: relative; */
-  width: 70%;
 }
 
-div .headerTalent {
-  top: 77px;
-  position: relative;
-  left: 0;
-  margin: 0 auto;
-  background-color: red;
+.logo {
+  max-width: 157px;
+  margin-right: 2.1em;
 }
 
-div .headerTalent img {
-  width: 157.5px;
-}
-div .headerHome {
-  font-family: "Livvic";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 28px;
-  margin-top: 83px;
-  cursor: pointer;
-  display: inline-block;
-}
-div .headerHome:hover {
-  color: #f67e7e;
-}
-div .headerAbout {
-  position: relative;
-  font-family: "Livvic";
-  font-style: normal;
-  font-size: 18px;
-  line-height: 28px;
-  margin-top: 83px;
-  cursor: pointer;
-}
-
-.pad-25x {
-  padding-left: 25px;
-}
-
-div .headerAbout:hover {
-  color: #f67e7e;
-}
-div .headerButton {
-  position: relative;
-  float: right;
-  height: 48px;
-  width: 153px;
-  right: 0;
-  border-radius: 24px;
-  border: 2px solid;
-  background-color: transparent;
-  color: #ffffff;
-  top: 73px;
-  /* left: 950.47px; */
-  margin: 0 auto;
-  font-size: 18px;
-  line-height: 28px;
-}
-div .headerButton .headerButtonText {
-  font-family: "Livvic";
-  font-style: normal;
-  letter-spacing: 1px;
-}
-div .headerButton:hover {
-  display: block;
-  background-color: #ffffff;
-  color: #000000;
-  border-color: #ffffff;
-}
-.headerRectangle {
-  position: absolute;
-  width: 50px;
-  height: 4px;
-  background: #79c8c7;
-  left: 830px;
-  top: 250px;
-  right: 560px;
-  bottom: 446px;
-}
-.headerBestTalent {
-  position: relative;
-  font-family: "Livvic";
-  width: 50%;
-  height: 200px;
-  margin-top: 250px;
-
-  color: #ffffff;
-  font-size: 100px;
-  font-weight: 700;
-  line-height: 100px;
-  display: inline-block;
-  /* background-color: green; */
-}
-.headerTalentColor {
-  color: #f67e7e;
-  font-family: "Livvic";
-  position: absolute;
-  font-weight: 700;
-  left: 180px;
-}
-div .headerAboutText {
-  font-family: "Livvic";
-  position: relative;
-  height: 112px;
-  width: 49%;
-
-  color: #ffffff;
-  display: inline-block;
-  line-height: 28px;
-  background-color: red;
-}
-div .headerHome1Icon {
-  position: absolute;
-  width: 200px;
-  height: 200px;
-  left: -100px;
-  top: 250px;
-}
-div .headerHome2Icon {
-  position: absolute;
-  width: 358px;
-  height: 200px;
-  left: 917px;
-  top: 600px;
-}
-.aboutHeaderBackground {
-  width: 1440px;
-  height: 517px;
-  background-color: #014e56;
-  overflow: hidden;
-  position: relative;
-}
-div .aboutHeaderAbout {
-  font-family: "Livvic";
-  font-style: normal;
-  position: absolute;
-  color: #ffffff;
-  width: 350px;
-  height: 100px;
-  left: 165px;
-  bottom: 176px;
-  font-size: 64px;
-  font-weight: 700;
-  line-height: 100px;
-}
-div .aboutHeaderRectangle {
-  position: absolute;
-  width: 50px;
-  height: 4px;
-  background-color: #f67e7e;
-  left: 545px;
-  top: 241px;
-}
-div .aboutHeaderText {
-  position: absolute;
-  font-family: "Livvic";
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 28px;
-  width: 730px;
-  height: 112px;
-  top: 44px;
-  color: #ffffff;
-  right: 165px;
-  top: 285px;
-}
-div .aboutBackgroundIcon {
-  position: absolute;
-  width: 200px;
-  height: 200px;
-  right: -100px;
-  top: 317px;
-}
-.contactHeaderBackground {
-  width: 1440px;
-  height: 240px;
-  background-color: #014e56;
-  overflow: hidden;
-  position: relative;
+.header-nav {
   display: flex;
-  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 4.1em;
+}
+
+.nav-logo-links {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+nav a , .hero-description-line p{
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.125rem;
+  line-height: 28px;
+}
+
+.contact-btn {
+  border: 2px solid #FFFFFF ;
+  border-radius: 24px;
+  padding: 0.5em 1.5em;
+}
+
+.hero-h1-flex {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-top: 6.95em;
+  gap: 30px;
+}
+
+header h1 {
+  font-size: 6.25rem;
+  font-weight: 700;
+  margin: 0;
+  color: #FFFFFF;
+  padding-right: 1em;
+}
+
+.hero-description-line {
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+  justify-content: space-between;
+}
+
+.line {
+  background-color: #79C8C7;
+  height: 4px;
+  width: 50px;
+}
+
+.pink-color {
+  color: #F67E7E;
+}
+
+.pattern-mid-left {
+  position: relative;
+  bottom: 330px;
+  left: -100px;
+  max-width: 200px;
+}
+
+.pattern-container-end {
+  position: relative;
+  left: 730px;
+  top: 120px;
 }
