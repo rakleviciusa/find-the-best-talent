@@ -304,6 +304,11 @@ header h1 {
 
 /* CONTACT HERO */
 
+.hero-header-height {
+  height: 789px;
+  position: relative;
+}
+
 .contact {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -333,3 +338,48 @@ header h1 {
   color: #FFFFFF;
   margin-left: 23px;
 }
+
+form input, form textarea {
+  background-color: inherit;
+  border: none;
+  border-bottom: #FFFFFF 1px solid;
+  width: 100%;
+  padding: 0 16px 24px 0;
+  color: #FFFFFF;
+  font-family: "Livvic", sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  padding-left: 0.8em;
+}
+
+.submit-btn {
+  background: #FFFFFF;
+  border: none;
+  border-radius: 24px;
+  font-family: inherit;
+  padding: 0.5em 1.6em;
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin-top: 1.2em;
+  cursor: pointer;
+}
+
+::placeholder {
+  color: #FFFFFF;
+  font-family: "Livvic", sans-serif;
+  opacity: 60%;
+  font-weight: 600;
+  font-size: 0.9375rem;
+}
+
+.contact-pattern-1 {
+  background-image: url(images/bg-pattern-about-2-contact-1.svg);
+  background-repeat: no-repeat;
+  background-position-x: -100px;
+  background-position-y: center;
+}
+
+.right-half {
+  right: -100px;
+}
+
