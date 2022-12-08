@@ -5,15 +5,17 @@
      overflow: hidden;
      position: relative;
      display: flex;
-     flex-wrap: wrap;
 }
-.containerHeader {
+.containerHeader div {
     display: flex;
     justify-content: flex-start;
     flex-direction: row;
     color: #ffffff;
     position: absolute;
     flex-wrap: wrap;
+    max-width: 1110px;
+    margin-left: 165px;
+    margin-right: 165px;
 }
 div .headerTalent{
     width: 157.5px;
@@ -56,9 +58,9 @@ div .headerAbout:hover{
     border: 2px solid;
     background-color: transparent;
     color: #ffffff;
-    margin-top: 73px;
-    margin-left: 799.47px;
-    margin-right: 799.47px;
+    top: 73px;
+    left: 950.47px;
+
     font-size: 18px;
     line-height: 28px;
  }
