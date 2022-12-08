@@ -284,7 +284,8 @@ header h1 {
   height: 513px;
 }
 
-.header-about h1 {
+.header-about h1, .contact h2 {
+  color: #FFFFFF;
   font-size: 3.2rem;
   margin-right: 2.5em;
 }
@@ -299,4 +300,36 @@ header h1 {
 
 .half-pattern {
   right: -100px;
+}
+
+/* CONTACT HERO */
+
+.contact {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  margin-top: 6em;
+}
+
+.contact h2 {
+  margin: 0;
+}
+
+.contact-section h3 {
+  color: #F67E7E;
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 32px 0;
+
+}
+
+.contact-logo-description {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.4em;
+}
+
+.contact-logo-description p {
+  color: #FFFFFF;
+  margin-left: 23px;
 }
