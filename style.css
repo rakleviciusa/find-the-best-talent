@@ -124,3 +124,10 @@ div .headerHome2Icon{
     left: 917px;
     top: 600px;   
 }
+div .aboutHeaderBackground{
+    width: 1440px;
+    height: 517px;
+    background-color: #014e56;
+    overflow: hidden;
+    position: relative;
+}
