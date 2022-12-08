@@ -45,6 +45,7 @@ main img {
     max-width: 62px;
     border-radius: 50%;
     border: 2px solid #C4FFFE;
+    margin-top: 1.4em;
 }
 
 .main-description-block p{
