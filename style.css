@@ -455,3 +455,45 @@ footer {
 .social-media-logos {
   margin-bottom: 51px;
 }
+
+/* SOME OF OUR CLIENTS */
+
+.clients {
+  height: 437px;
+  background-color: #012F34;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.clients h2 {
+  margin: 0;
+}
+
+.company-logos {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr 2fr 1fr;
+  align-items: center;
+  gap: 70px;
+}
+
+.company-logos img {
+  width: 100%;
+  max-width: 165px;
+}
+
+/* SCROLLBAR */
+
+::-webkit-scrollbar {
+  width: 1em;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #79C8C7;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #012F34;
+  border-radius: 100vw;
+  border: 0.15em solid #79C8C7;
+}
