@@ -194,6 +194,7 @@ header {
   background-color: #014E56;
   height: 700px;
   position: relative;
+  padding: 0 2em;
 }
 
 .hero-container {
@@ -202,7 +203,7 @@ header {
 }
 
 .logo {
-  max-width: 157px;
+  max-width: 160px;
   margin-right: 2.1em;
 }
 
@@ -383,3 +384,74 @@ form input, form textarea {
   right: -100px;
 }
 
+/* FOOTER */
+
+footer {
+  height: 196px;
+  background-color: #002529;
+  color: #FFFFFF;
+}
+
+.footer-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 196px;
+  max-width: 1120px;
+}
+
+.logo-address-flex {
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  gap: 125px;
+}
+
+/* .footer-logo-links {
+  max-width: 160px;
+} */
+
+/* footer .logo img{
+  max-width: 160px;
+  margin: 0;
+} */
+
+.footer-logo-flex {
+  padding-right: 100px;
+}
+
+.footer-logo-flex img {
+  width: 160px;
+}
+
+.logo-address-flex a{
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.p-24 {
+  margin-top: 24px;
+}
+
+.m-r-40 {
+  margin-right: 2em;
+}
+
+.footer-address {
+  font-weight: 600;
+  font-size: 0.9375em;
+  opacity: 0.6;
+  line-height: 25px;
+}
+
+.social-media-copyright {
+  text-align: end;
+}
+
+.m-16 {
+  margin: 0.8em;
+}
+
+.social-media-logos {
+  margin-bottom: 51px;
+}
