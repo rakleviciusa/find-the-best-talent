@@ -279,6 +279,56 @@ header h1 {
   top: 120px;
 }
 
+/* Build and Manage article */
+
+.build-and-manage-article {
+  background-color: #012F34;
+  color: #FFFFFF;
+  height: 684px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.build-and-manage-article h2, .build-and-manage-article p, .article-logo-description h4 {
+  margin: 0;
+}
+
+.build-manage-container {
+  max-width: 1110px;
+}
+
+.build-manage-grid {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  justify-content: center;
+  gap: 125px;
+}
+
+.article-logo-description {
+  display: flex;
+  align-items: center;
+  gap: 23px;
+  margin-bottom: 32px;
+}
+
+.build-and-manage-article h2 {
+  font-size: 3rem;
+}
+
+.article-logo-description h4 {
+  color: #F67E7E;
+  font-size: 1.125rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.article-logo-description p {
+  font-size: 0.9375rem;
+  line-height: 25px;
+  font-weight: 600;
+}
+
 /* ABOUT HEADER */
 
 .header-about {
