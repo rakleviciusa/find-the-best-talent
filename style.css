@@ -105,11 +105,11 @@ main p,
   max-width: 200px;
 }
 
-.pattern-top-left {
-  position: absolute;
-  top: 0;
-  left: 0;
-  max-width: 147px;
+.patterns-main {
+  background-image: url(images/bg-pattern-home-4-about-3.svg), url(images/bg-pattern-home-5.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position-y: top, bottom;
+  background-position-x: left, right;
 }
 
 .meet-the-directors {
@@ -120,7 +120,10 @@ main p,
   align-items: center;
   text-align: center;
   position: relative;
-
+  background-image: url(images/bg-pattern-about-2-contact-1.svg), url(images/bg-pattern-home-4-about-3.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position-y: top, bottom;
+  background-position-x: calc(0% - 100px), right;
 }
 
 .meet-the-directors h1,
@@ -305,6 +308,10 @@ header h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-image: url(images/bg-pattern-about-4.svg);
+  background-repeat: no-repeat;
+  background-position-x: calc(100% + 100px);
+  background-position-y: bottom;
 }
 
 .build-and-manage-article h2, .build-and-manage-article p, .article-logo-description h4 {
@@ -356,6 +363,10 @@ header h1 {
 
 .header-about {
   height: 513px;
+  background-image: url(images/bg-pattern-about-1-mobile-nav-1.svg);
+  background-repeat: no-repeat;
+  background-position-x: calc(100% + 100px);
+  background-position-y: bottom;
 }
 
 .header-about h1, .contact h2 {
@@ -372,9 +383,6 @@ header h1 {
   margin-top: 40px;
 }
 
-.half-pattern {
-  right: -100px;
-}
 
 /* CONTACT HERO */
 
@@ -451,12 +459,13 @@ form input, form textarea {
 }
 
 .contact-pattern-1 {
-  background-image: url(images/bg-pattern-contact-2.svg);
-  background-repeat: no-repeat;
-  background-position-y: bottom;
-  background-position-x: right;
+  background-image: url(images/bg-pattern-contact-2.svg), url(images/bg-pattern-about-2-contact-1.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position-y: bottom, center;
+  background-position-x: calc(100% + 100px), calc(0% - 100px);
   
 }
+
 
 /* FOOTER */
 
@@ -541,6 +550,8 @@ footer {
   justify-content: center;
   text-align: center;
   padding: 0 2em;
+  background-image: url(images/bg-pattern-about-4.svg);
+  background-repeat: no-repeat;
 }
 
 .clients h2 {
