@@ -15,6 +15,7 @@ main {
   align-items: center;
   text-align: center;
   position: relative;
+  padding: 0 2em;
 }
 
 .container {
@@ -119,6 +120,7 @@ main p,
   align-items: center;
   text-align: center;
   position: relative;
+
 }
 
 .meet-the-directors h1,
@@ -279,6 +281,21 @@ header h1 {
   top: 120px;
 }
 
+.patter-bg{
+  background-image: url(images/bg-pattern-home-1.svg);
+  background-repeat: no-repeat;
+  background-position-x: -100px;
+  background-position-y: center;
+}
+
+.pattern-bg-hero {
+  height: 700px;
+  background-image: url(images/bg-pattern-home-2.svg);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
+}
+
 /* Build and Manage article */
 
 .build-and-manage-article {
@@ -296,6 +313,7 @@ header h1 {
 
 .build-manage-container {
   max-width: 1110px;
+  padding: 0 2em;
 }
 
 .build-manage-grid {
@@ -328,6 +346,11 @@ header h1 {
   line-height: 25px;
   font-weight: 600;
 }
+
+.build-and-manage-line {
+  margin-bottom: 2.7em;
+}
+
 
 /* ABOUT HEADER */
 
@@ -423,15 +446,16 @@ form input, form textarea {
   font-size: 0.9375rem;
 }
 
-.contact-pattern-1 {
-  background-image: url(images/bg-pattern-about-2-contact-1.svg);
-  background-repeat: no-repeat;
-  background-position-x: -100px;
-  background-position-y: center;
-}
-
 .right-half {
   right: -100px;
+}
+
+.contact-pattern-1 {
+  background-image: url(images/bg-pattern-contact-2.svg);
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+  background-position-x: right;
+  
 }
 
 /* FOOTER */
@@ -440,6 +464,7 @@ footer {
   height: 196px;
   background-color: #002529;
   color: #FFFFFF;
+  padding: 0 2em;
 }
 
 .footer-flex {
@@ -514,10 +539,16 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
+  padding: 0 2em;
 }
 
 .clients h2 {
   margin: 0;
+  font-weight: 700;
+  font-size: 3rem;
+  color: #FFFFFF;
+  margin-bottom: 64px;
 }
 
 .company-logos {
@@ -531,6 +562,7 @@ footer {
   width: 100%;
   max-width: 165px;
 }
+
 
 /* SCROLLBAR */
 
@@ -550,4 +582,40 @@ footer {
 
 ::-webkit-scrollbar-thumb:hover {
   background-color: #001f22;
+}
+
+/* READY TO GET STARTED SECTION */
+
+.ready-to-get-started {
+  background-color:#f67e7e;
+  height: 200px;
+  background-image: url(images/bg-pattern-home-6-about-5.svg);
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+}
+
+.get-started-container {
+  max-width: 920px;  
+  margin: 0 auto;
+}
+
+.get-started-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 200px;
+}
+
+.ready-to-get-started h2 {
+  font-weight: 700;
+  font-size: 3rem;
+  color: #012F34;
+}
+
+.ready-to-get-started a {
+  text-decoration: none;
+  font-size: 1.125rem;
+  color: #012F34;
+  font-weight: 600;
+  border: 2px solid #012F34;
 }
