@@ -188,6 +188,15 @@ main p,
   max-width: 96px;
 }
 
+.close-btn-style {
+  background-color: #79C8C7;
+  font-family: inherit;
+}
+
+#director-text-id {
+  display: none;
+}
+
 /* HEADER ___________________________ */
 
 header {
