@@ -198,8 +198,12 @@ main p,
   font-family: inherit;
 }
 
-#director-text-id {
+.director-text {
   display: none;
+}
+
+#director-text-id { 
+  padding: 0 2em;
 }
 
 /* HEADER ___________________________ */
@@ -638,4 +642,50 @@ footer {
   color: #012F34;
   font-weight: 600;
   border: 2px solid #012F34;
+}
+
+/* MEDIA QUERY TABLET 768px*/
+
+@media (max-width: 768px) {
+
+  /* HOME HERO HEADER */
+
+  .hero-h1-flex {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-description-line .line {
+    display: none;
+  }
+
+  .hero-h1-flex h1 {
+    font-size: 4rem;
+    padding: 0;
+  }
+
+  .hero-h1-flex p {
+    max-width: 457px;
+    margin: 0 auto;
+  }
+
+  .build-manage-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+  }
+
+  .build-manage-container {
+    max-width: 572px;
+  }
+
+  .build-and-manage-article h2 {
+    font-size: 2rem;
+  }
+
+  .build-and-manage-article .line {
+    background-color: #F67E7E;
+  }
+
 }

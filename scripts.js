@@ -8,6 +8,7 @@ const closeBtn = document.getElementById("close-span")
 const directorTextEl = document.getElementById("director-text-id")
 
 
+
 directorsBtn.addEventListener("click", function(){
     directorsBtn.classList.toggle("close-btn-style")
 })
@@ -26,9 +27,12 @@ directorsBtnDrake.addEventListener("click", function(){
 
 directorsBtnGriffin.addEventListener("click", function(){
     directorsBtnGriffin.classList.toggle("close-btn-style")
+    document.getElementById("director-text-id-griffin").toggle("director-text")
+    document.getElementById("director-avatar-description-griffin").classList.toggle("director-text")
 })
 
 directorsBtnAden.addEventListener("click", function(){
     directorsBtnAden.classList.toggle("close-btn-style")
-    directorTextEl.style.display = "block"
+    directorTextEl.classList.toggle("director-text")
+    document.getElementById("director-avatar-description").classList.toggle("director-text")
 })
