@@ -120,8 +120,6 @@ main p,
   align-items: center;
   text-align: center;
   position: relative;
-
-=======
   background-image: url(images/bg-pattern-about-2-contact-1.svg), url(images/bg-pattern-home-4-about-3.svg);
   background-repeat: no-repeat, no-repeat;
   background-position-y: top, bottom;
@@ -700,29 +698,6 @@ footer {
   border: 2px solid #012f34;
 }
 
-/* Size adjust */
-
-/* @media screen and (max-width: 640px) {
-  header {
-    height: 567px;
-  }
-
-  .nav-logo-links {
-    height: 32px;
-    width: 126px;
-  }
-
-  .hero-h1-flex {
-    font-size: 20px;
-    line-height: 40px;
-    text-align: center;
-  }
-} */
-=======
-  border: 2px solid #012F34;
-}
-
-/* MEDIA QUERY TABLET 768px*/
 
 @media (max-width: 768px) {
 
