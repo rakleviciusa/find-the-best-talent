@@ -41,19 +41,10 @@
           </div>
         </div>
       </div>
-      <img
-        class="pattern-right-bottom half-pattern"
-        src="images/bg-pattern-about-1-mobile-nav-1.svg"
-        alt="pattern-about"
-      />
+
     </header>
 
     <div class="meet-the-directors">
-      <img
-        class="pattern-top-left pattern-half"
-        src="images/bg-pattern-about-2-contact-1.svg"
-        alt="bg-pattern-about-2-contact-1"
-      />
       <div class="container">
         <h1>Meet the directors</h1>
 
@@ -64,7 +55,7 @@
               <h4>Nikita Marks</h4>
               <p>Founder & CEO</p>
               <button id="directors-btn" class="meet-the-directors-btn">
-                <span>+</span>
+                <span id="close-span">+</span>
               </button>
             </div>
 
@@ -76,7 +67,7 @@
               />
               <h4>Cristian Duncan</h4>
               <p>Co-founder & COO</p>
-              <button id="directors-btn" class="meet-the-directors-btn">
+              <button id="directors-btn-cristian" class="meet-the-directors-btn">
                 <span>+</span>
               </button>
             </div>
@@ -85,7 +76,7 @@
               <img class="avatar" src="images/avatar-cruz.jpg" alt="Cruz" />
               <h4>Cruz Hamer</h4>
               <p>Co-founder & CTO</p>
-              <button id="directors-btn" class="meet-the-directors-btn">
+              <button id="directors-btn-cruz" class="meet-the-directors-btn">
                 <span>+</span>
               </button>
             </div>
@@ -100,40 +91,52 @@
               />
               <h4>Drake Heaton</h4>
               <p>Business Development Lead</p>
-              <button id="directors-btn" class="meet-the-directors-btn">
+              <button id="directors-btn-drake" class="meet-the-directors-btn">
                 <span>+</span>
               </button>
             </div>
 
             <div class="director-description">
-              <img
-                class="avatar"
-                src="images/avatar-griffin.jpg"
-                alt="Griffin"
-              />
-              <h4>Griffin Wise</h4>
-              <p>Lead Marketing</p>
-              <button id="directors-btn" class="meet-the-directors-btn">
+              <div id="director-avatar-description-griffin">
+                <img
+                  class="avatar"
+                  src="images/avatar-griffin.jpg"
+                  alt="Griffin"
+                />
+                <h4>Griffin Wise</h4>
+                <p>Lead Marketing</p>
+              </div>
+              <div class="director-text" id="director-text-id-griffin">
+                <h4>Aden Allan</h4>
+                <p>
+                  “Empowered teams create truly amazing products. Set the north star and let them follow it.”
+                </p>
+              </div>
+              <button id="directors-btn-griffin" class="meet-the-directors-btn">
                 <span>+</span>
               </button>
             </div>
 
             <div class="director-description">
-              <img class="avatar" src="images/avatar-aden.jpg" alt="Cruz" />
-              <h4>Aden Allan</h4>
-              <p>Co-founder & CTO</p>
-              <button id="directors-btn" class="meet-the-directors-btn">
+              <div id="director-avatar-description">
+                <img class="avatar" src="images/avatar-aden.jpg" alt="Cruz" />
+                <h4>Aden Allan</h4>
+                <p>Co-founder & CTO</p>
+              </div>
+              <div class="director-text" id="director-text-id">
+                <h4>Aden Allan</h4>
+                <p>
+                  “Empowered teams create truly amazing products. Set the north star and let them follow it.”
+                </p>
+              </div>
+              <button id="directors-btn-aden" class="meet-the-directors-btn">
                 <span>+</span>
               </button>
             </div>
           </div>
         </div>
       </div>
-      <img
-        class="pattern-right-bottom"
-        src="images/bg-pattern-home-4-about-3.svg"
-        alt=""
-      />
+  
     </div>
 
     <article class="clients">
@@ -208,5 +211,9 @@
         </div>
       </div>
     </footer>
+
   </body>
+    <script src="scripts.js"></script>
+</body>
+
 </html>

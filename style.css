@@ -105,11 +105,11 @@ main p,
   max-width: 200px;
 }
 
-.pattern-top-left {
-  position: absolute;
-  top: 0;
-  left: 0;
-  max-width: 147px;
+.patterns-main {
+  background-image: url(images/bg-pattern-home-4-about-3.svg), url(images/bg-pattern-home-5.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position-y: top, bottom;
+  background-position-x: left, right;
 }
 
 .meet-the-directors {
@@ -120,6 +120,13 @@ main p,
   align-items: center;
   text-align: center;
   position: relative;
+
+=======
+  background-image: url(images/bg-pattern-about-2-contact-1.svg), url(images/bg-pattern-home-4-about-3.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position-y: top, bottom;
+  background-position-x: calc(0% - 100px), right;
+
 }
 
 .meet-the-directors h1,
@@ -195,6 +202,19 @@ main p,
 
 .director-description .avatar {
   max-width: 96px;
+}
+
+.close-btn-style {
+  background-color: #79C8C7;
+  font-family: inherit;
+}
+
+.director-text {
+  display: none;
+}
+
+#director-text-id { 
+  padding: 0 2em;
 }
 
 /* HEADER ___________________________ */
@@ -337,6 +357,10 @@ header h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-image: url(images/bg-pattern-about-4.svg);
+  background-repeat: no-repeat;
+  background-position-x: calc(100% + 100px);
+  background-position-y: bottom;
 }
 
 .build-and-manage-article h2,
@@ -389,6 +413,10 @@ header h1 {
 
 .header-about {
   height: 513px;
+  background-image: url(images/bg-pattern-about-1-mobile-nav-1.svg);
+  background-repeat: no-repeat;
+  background-position-x: calc(100% + 100px);
+  background-position-y: bottom;
 }
 
 .header-about h1,
@@ -406,9 +434,6 @@ header h1 {
   margin-top: 40px;
 }
 
-.half-pattern {
-  right: -100px;
-}
 
 /* CONTACT HERO */
 
@@ -485,11 +510,19 @@ form textarea {
 }
 
 .contact-pattern-1 {
+
   background-image: url(images/bg-pattern-contact-2.svg);
   background-repeat: no-repeat;
   background-position-y: bottom;
   background-position-x: right;
+
+  background-image: url(images/bg-pattern-contact-2.svg), url(images/bg-pattern-about-2-contact-1.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position-y: bottom, center;
+  background-position-x: calc(100% + 100px), calc(0% - 100px);
+
 }
+
 
 /* FOOTER */
 
@@ -586,6 +619,8 @@ footer {
   justify-content: center;
   text-align: center;
   padding: 0 2em;
+  background-image: url(images/bg-pattern-about-4.svg);
+  background-repeat: no-repeat;
 }
 
 .clients h2 {
@@ -661,6 +696,7 @@ footer {
   font-size: 1.125rem;
   color: #012f34;
   font-weight: 600;
+
   border: 2px solid #012f34;
 }
 
@@ -682,3 +718,111 @@ footer {
     text-align: center;
   }
 } */
+=======
+  border: 2px solid #012F34;
+}
+
+/* MEDIA QUERY TABLET 768px*/
+
+@media (max-width: 768px) {
+
+  /* HOME HERO HEADER */
+
+  .hero-h1-flex {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-description-line .line {
+    display: none;
+  }
+
+  .hero-h1-flex h1 {
+    font-size: 4rem;
+    padding: 0;
+  }
+
+  .hero-h1-flex p {
+    max-width: 457px;
+    margin: 0 auto;
+  }
+
+  /* BUILD AND MANAGE SECTION */
+
+  .build-manage-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+  }
+
+  .build-manage-container {
+    max-width: 572px;
+  }
+
+  .build-and-manage-article h2 {
+    font-size: 2rem;
+  }
+
+  .build-and-manage-article .line {
+    background-color: #F67E7E;
+  }
+
+  /* HOME MAIN */
+
+  .patterns-main {
+    height: 1199px;
+  }
+
+  .patterns-main .container {
+    max-width: 573px;
+  }
+
+  .main-3-blocks {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main-heading h1 {
+    font-size: 2rem;
+  }
+
+  /* GET STARTED SECTION */
+
+  .ready-to-get-started h2{
+    font-size: 2rem;
+  }
+
+  .get-started-container {
+    padding: 0 2em;
+  }
+
+  /* FOOTER */
+
+  footer {
+    height: 271px;
+  }
+
+  .footer-flex {
+    flex-direction: column;
+    justify-content: space-between;
+    height: 271px;
+  }
+
+  .social-media-copyright {
+    display: flex;
+    align-items: space-between;
+    /* justify-content: space-between; */
+  }
+
+  /* .nav-logo-links {
+    gap: 0;
+  } */
+
+  .logo-address-flex {
+    justify-content: space-between;
+  }
+
+
+}
+
