@@ -124,7 +124,6 @@ main p,
   background-repeat: no-repeat, no-repeat;
   background-position-y: top, bottom;
   background-position-x: calc(0% - 100px), right;
-
 }
 
 .meet-the-directors h1,
@@ -155,15 +154,17 @@ main p,
   flex-direction: column;
   width: 30vmax;
   max-width: 350px;
-  height: 30vmax;
-  max-height: 253px;
+  min-width: 100px;
+  height: 253px;
   position: relative;
+  margin-bottom: 3.8em;
 }
 
 .directors-six-blocks {
   display: grid;
-  grid-template-rows: repeat(2, 1fr);
-  gap: 76px;
+  grid-template-columns: auto auto auto;
+  gap: 30px;
+  
 }
 
 .meet-the-directors-btn {
@@ -200,6 +201,7 @@ main p,
 
 .director-description .avatar {
   max-width: 96px;
+  min-width: none;
 }
 
 .close-btn-style {
@@ -797,6 +799,41 @@ footer {
   .logo-address-flex {
     justify-content: space-between;
   }
+  
+  .header-about {
+    height: 556px;
+  }
+
+  .header-about h1 {
+    margin: 0;
+  }
+
+  .header-about .m-2em {
+    font-size: 0.9375rem;
+  }
+
+  .meet-the-directors {
+    height: 1219px;
+  }
+
+  .meet-the-directors .container {
+    max-width: 573px;
+  }
+
+  .directors-six-blocks {
+    grid-template-columns: auto auto;
+    gap: 11px;
+  }
+
+  .meet-the-directors h1 {
+    font-size: 2rem;
+    margin-bottom: 2.4em;
+  }
+
+  .company-logos {
+    gap: 20px;
+  }
+
 
 
 }
