@@ -67,7 +67,7 @@ main p,
   font-weight: 600;
   font-size: 0.9375rem;
   line-height: 25px;
-  padding-top: 3em;
+  padding-top: 2.25em;
   /* background-attachment: fixed; */
 }
 
@@ -421,7 +421,7 @@ header h1 {
 .header-about h1,
 .contact h2 {
   color: #ffffff;
-  font-size: 3.2rem;
+  font-size: 64px;
   margin-right: 2.5em;
 }
 
@@ -722,6 +722,15 @@ footer {
   .hero-h1-flex p {
     max-width: 457px;
     margin: 0 auto;
+    font-size: 0.9375rem;
+  }
+  
+  .patter-bg {
+    background-image: none;
+  }
+
+  .pattern-bg-hero {
+    background-position-x: center;
   }
 
   /* BUILD AND MANAGE SECTION */
@@ -761,6 +770,11 @@ footer {
 
   .main-heading h1 {
     font-size: 2rem;
+    margin-top: 1em;
+  }
+
+  .build-and-manage-article {
+    background-position-y: top;
   }
 
   /* GET STARTED SECTION */
@@ -829,11 +843,42 @@ footer {
     margin-bottom: 2.4em;
   }
 
+  /* SOME OF OUR CLIENTS */
+
+  .clients {
+    background-position-y: calc(0% - 100px);
+  }
+
   .company-logos {
     gap: 20px;
   }
 
+  /* CONTACT  */
 
+  .hero-header-height {
+    height: 1204px;
+  }
+
+  .contact {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact form, .contact-section  {
+    width: 80%;
+  }
+
+  .contact form {
+    margin-top: 3.2em;
+  }
+
+  .contact-section h2, .contact-section h3 {
+    text-align: center;
+  }
+
+  .contact-pattern-1 {
+    background-position-y: bottom, calc(0% + 220px);
+  }
 
 }
 
