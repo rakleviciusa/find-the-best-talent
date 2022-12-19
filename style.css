@@ -1067,4 +1067,9 @@ button, a {
     margin: 24px 0;
   }
 
+  .footer-about-btn {
+    right: 0;
+    bottom: 0;
+  }
+
 }
